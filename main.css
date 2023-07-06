@@ -129,6 +129,12 @@ color: #757575;
 /* end about */
 
 /* start masters */
+
+.masters{
+    background-color: #F5F4FA;
+    ;
+}
+
 .title-masters{
 font-style: normal;
 font-weight: 700;
@@ -167,20 +173,25 @@ letter-spacing: 0.03em;
     background-color:#2F303A ;
 }
 
+/* .contact-footer-item{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: ;
+} */
+
 .contact-footer-item{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.6);
 }
 
-.contact-footer-list{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+.contact-footer-item:hover,
+.contact-footer-item:focus{
+    color: #FFFFFF;
 }
 
 /* end footer */
@@ -200,6 +211,10 @@ letter-spacing: 0.03em;
 .filter-btn-item:focus{
     background-color: var(--accent-color);
     color: #FFFFFF;
+}
+
+.filter-btn .current{
+    background-color: var(--accent-color);
 }
 
 .potfolio-img-list{
@@ -223,4 +238,4 @@ letter-spacing: 0.03em;
     color: #757575;
 }
 
-/* end prtfolio */
+/* end portfolio */
