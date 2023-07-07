@@ -2,7 +2,8 @@
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
     --accent-color: #2196F3;
-    --main-color: #212121;;
+    --main-color: #212121;
+    --secondary-accent-color: #757575; 
 }
 
 .list {
@@ -34,7 +35,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color:#000000; ;
+    color:  #000000;
 }
 
 .nav-list-link{
@@ -55,7 +56,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #757575;
+color: var(--secondary-accent-color);
 }
 
 .contact-list-item.link:hover,
@@ -83,6 +84,8 @@ color: #757575;
 
 .hero-title{
     color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
 }
 
 .hero-btn{
@@ -103,6 +106,11 @@ color: #757575;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+}
+
+.title-about{
+    font-weight: 700;
+    font-size: 14px; 
     text-transform: uppercase;
 }
 
@@ -111,7 +119,7 @@ color: #757575;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;  
-    color: #757575;
+    color: var(--secondary-accent-color);
 }
 
 .title-gallery{
@@ -157,7 +165,7 @@ letter-spacing: 0.03em;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;    
+    color: var(--secondary-accent-color);    
 }
 
 .masters-item-img{
@@ -172,26 +180,27 @@ letter-spacing: 0.03em;
     background-color:#2F303A ;
 }
 
+.footer > .logo-second-part{
+    color: #FFFFFF;
+}
+
+.contact-footer-item{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
 /* .contact-footer-item{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: ;
+    color: rgba(255, 255, 255, 0.6);
 } */
 
-.contact-footer-item{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.contact-footer-item:hover,
-.contact-footer-item:focus{
-    color: #FFFFFF;
-}
 
 /* end footer */
 
@@ -234,7 +243,7 @@ letter-spacing: 0.03em;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-accent-color);
 }
 
 /* end portfolio */
