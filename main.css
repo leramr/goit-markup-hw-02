@@ -184,7 +184,7 @@ letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
-.contact-footer-item{
+.contact-footer-map{
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
@@ -193,13 +193,15 @@ letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
-/* .contact-footer-item{
+.contact-footer-email,
+.contact-footer-phone{
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-} */
+}
 
 
 /* end footer */
@@ -211,14 +213,13 @@ letter-spacing: 0.03em;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: #FFFFFF;
     background: #F5F4FA;
 }
 
 .filter-btn-item:hover,
 .filter-btn-item:focus{
     background-color: var(--accent-color);
-    color: #FFFFFF;
 }
 
 .filter-btn .current{
