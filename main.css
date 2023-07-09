@@ -224,7 +224,6 @@ letter-spacing: 0.03em;
 }
 
 .filter-btn .current{
-    
     background-color: var(--accent-color);
     color: #FFFFFF;
 }
