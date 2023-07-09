@@ -213,7 +213,7 @@ letter-spacing: 0.03em;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: #212121;
     background: #F5F4FA;
 }
 
@@ -224,6 +224,7 @@ letter-spacing: 0.03em;
 
 .filter-btn .current{
     background-color: var(--accent-color);
+    color: #FFFFFF;
 }
 
 .potfolio-img-list{
