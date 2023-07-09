@@ -220,6 +220,7 @@ letter-spacing: 0.03em;
 .filter-btn-item:hover,
 .filter-btn-item:focus{
     background-color: var(--accent-color);
+    color: #FFF;
 }
 
 .filter-btn .current{
